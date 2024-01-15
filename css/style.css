@@ -1,0 +1,107 @@
+/* a:link{
+  text-decoration: none;
+  color: yellow;
+  background-color: rgb(54, 71, 71);
+
+}
+
+a:hover{
+    border-bottom: 2px solid red;
+}
+
+a:visited{
+    color: yellow;
+    text-emphasis-color: rgb(145, 12, 34);
+} */
+
+/* pseudo element Selector {::} */
+
+/* p::first-line{
+    color: green;
+}
+
+p::first-letter{
+    font-size: 50px;
+    color: aqua;
+} */
+/* 
+h2::before{
+    content: "Welcome To ";
+    color: red;
+}
+h2::after{
+    content:" Platform ";
+    color: red;
+    
+} */
+
+/* 
+li::marker{
+    color: red;
+} */
+/* 
+p::selection{
+    background-color: yellow;
+} */
+
+/* .paragraph{
+    color: green;
+}
+#unique{
+    color: red;
+}
+p{
+    color: aqua !important;
+}
+
+
+h2{
+    color: rgb(20, 2, 2,1.6);
+} */
+
+/* p.good_contrast{
+    color: aqua;
+
+}
+
+p.bad_contrast{
+    color:brown
+} */
+
+/* p{
+    width: 300px;
+    background-color: greenyellow;
+}
+
+p{
+    width: 7in;
+    background-color: yellowgreen;
+} */
+
+/* .container{
+    font-size: 20px;
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+}
+.small{
+    font-size: .5em;
+} */
+
+.container{
+    display: flex;
+}
+
+#inline{
+    width: 500px;
+    border: 2px solid black;
+    margin-right: 20px;
+    
+}
+#inline1{
+    width: 500px;
+    border: 2px solid burlywood;
+}

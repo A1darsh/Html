@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: black;
+    height: 80px;
+    color: aliceblue;
+    display: flex;
+}
+
+
+.sub_nav{
+    margin: 30px 70px ;
+    
+}
+
+
+
+.active {
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+#background{
+    background-image: url(https://e0.pxfuel.com/wallpapers/850/763/desktop-wallpaper-construction-site-construction-work.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1{
+    margin: 20px;
+    display: flex;
+}
+
+.img1{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+.fotter{
+    background-color: black;
+    height: 500px;
+}
+
+
+.footer_p{
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.fotter{
+    display: flex;
+}
+
+
+.footer_div{
+    width: 600px;
+}
+
+.last{
+    margin-top: 40px;
+    margin-left: 30px;
+}

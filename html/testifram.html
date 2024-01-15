@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage with iframes and anchor tags</title>
+  </head>
+  <body>
+    <iframe src="" frameborder="1" width="20%" height="640vh">
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Document</title>
+        </head>
+        <body>
+          <a href="https://www.example2.com" target="mainFrame"></a>
+        </body>
+      </html>
+    </iframe>
+    <iframe
+      name="mainFrame"
+      src="https://www.example.com"
+      frameborder="1"
+      width="79%"
+      height="640vh"
+    ></iframe>
+  </body>
+</html>
